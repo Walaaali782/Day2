@@ -1,0 +1,34 @@
+.Portfil {
+    padding: 0 130px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    position: relative;
+}
+.Portfil h2{
+    font-weight: 400;
+    padding-bottom: 80px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Portfil .txt{
+   text-align: center;
+}
+.Portfil .dark{
+    margin:10px;
+    color: white;
+    background-color: rgb(35, 34, 34);
+    padding: 60px 30px;
+    color: white;
+
+} 
+.Portfil .park{
+    margin:10px;
+    color: white;
+    background-color: #6e6969;
+    padding: 60px 30px;
+    color: white;
+}
+.Portfil h3{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #bbbbbb;
+}

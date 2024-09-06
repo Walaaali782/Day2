@@ -1,0 +1,45 @@
+.about {
+    padding: 0 100px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    display: flex;
+  gap: 80px;
+    position: relative;
+}
+  .about .txt {
+    flex-direction: row-reverse;
+    margin-top: 40px;
+  }
+  @media (max-width: 920px) {
+    .about .txt {
+      text-align: center;
+      width: 95%;
+      margin: auto;
+    }
+  }
+  .about  h2 {
+    font-size: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .about .txt p {
+    font-size: 16px;
+    margin: 20px 20px 0 0;
+    color: #898787;
+    line-height: 1.6;
+  }
+  .about button {
+    position: absolute;
+    background-color: rgb(28, 28, 28);
+    bottom: -90px;
+    left: 30%;
+
+    padding: 15px 26px;
+    border: none;
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+  }
